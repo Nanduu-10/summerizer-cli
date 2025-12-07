@@ -12,3 +12,13 @@ A simple command-line tool to summarize text files using Hugging Face Transforme
 
 ```bash
 pip install transformers sentencepiece
+
+## Sample Output
+
+Device set to use cpu
+Loaded text length: 249
+Number of chunks: 1
+Summarizing chunk 1/1...
+Chunk summary: Insurance protects people from financial loss...
+Final summary length: 85
+Summary saved to summary.txt
